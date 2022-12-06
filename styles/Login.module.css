@@ -1,0 +1,88 @@
+.logo{
+
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yi/r/ZFtnMBJnHU_.png);
+    background-position: 0px -554px;
+    background-size: auto;
+    width: 175px;
+    height: 51px;
+      background-repeat: no-repeat;
+      
+  margin-right: auto;
+  margin-left: auto;
+  }
+  
+  .listgroup{
+    --bs-list-group-border-width: 0px;
+  border-left: 1px solid transparent;
+}
+.listgroup:hover{
+  border-left: 1px solid grey;
+  
+}
+.w-11{
+  width: 11%;
+  
+  
+}
+.canva{
+ 
+ left: 0;
+  top: 15px;
+  position: absolute;
+z-index: 50;
+width: 50px;
+height: 50px;
+  background-image: linear-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  
+  animation: spin 5s linear infinite;
+}
+
+.bg-secondary{
+  --bs-bg-opacity: .1;
+}
+  
+/* .conic-gradient::after{
+  display: block;
+
+  content: '';
+  z-index: -1;
+  
+  width: 108%;
+  padding: 1px;
+  height: 108%;
+  background-image:conic-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  animation: spin 5s linear infinite;
+} */
+
+  @keyframes spin { 
+    100% { 
+      transform: rotate(360deg);
+    }
+  }
+  
+  .borderImage{
+  z-index: 99;
+  }
+.w-80{
+  width: 70%;
+}
+
+.w-23{
+  width: 23%;
+}
+
+.list-group-item:hover {
+  /* background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
+  /* border-left: 1px solid black; */
+background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.iconClass > *{
+  font-size: 1.5rem;
+  
+ 
+}
